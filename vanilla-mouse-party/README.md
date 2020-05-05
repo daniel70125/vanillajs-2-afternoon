@@ -27,7 +27,7 @@ Let's begin by setting up a couple of environment variables. These will be varia
       };
       ```
     - This function will take in a min and a max number, and return a random number between those two.
-
+    
 ### Solution
 
 <details>
