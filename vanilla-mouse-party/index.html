@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mouse Party</title>
+    <title>Coming Soon</title>
 </head>
 
 <body>
@@ -53,12 +53,14 @@
         }
     </style>
     <div id="wrap">
-        <h1>Party Time!</h1>
+        <h1>Coming Soon...</h1>
+        <p style='color:red' id='TIME'></p>
     </div>
 </body>
 
 <script>
-
+    const d = new Date();
+    document.getElementById('TIME').innerHTML = d;
     const mousePosition = {};
 
     mousePosition.x = 0;
@@ -106,7 +108,7 @@
             container.appendChild(ball);
 
 
-        }, 1000)
+        }, 100)
     }
 
     window.addEventListener('mouseover', () => {
